@@ -1,10 +1,5 @@
 package dom
 
-// package DOM
-//
-// provides an abstraction to the Document Object Model to enable
-// programmatic definitions of the document object model using golang
-
 import (
 	"syscall/js"
 )
