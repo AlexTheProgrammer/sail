@@ -15,8 +15,7 @@ type DOM struct {
 	Body   any
 }
 
-// ok so first implementation should just be silly
-// how do I define a div?
+// hard coded for now will change shortly
 var htmlString = "<h2>here is my new site</h2>"
 
 func getHtml() js.Func {
