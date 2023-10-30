@@ -19,7 +19,7 @@ type Node interface {
 }
 
 type Div struct {
-	innerHTML string
+	InnerHTML string
 }
 
 func (d *Div) Render() string {
@@ -27,7 +27,7 @@ func (d *Div) Render() string {
 		return "<div></div>"
 	}
 
-	return "<div>" + d.innerHTML + "</div>"
+	return "<div>" + d.InnerHTML + "</div>"
 }
 
 func getHtml(htmlString string) js.Func {
