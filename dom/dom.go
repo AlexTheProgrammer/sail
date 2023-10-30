@@ -1,5 +1,10 @@
 package dom
 
+// package DOM
+//
+// provides an abstraction to the Document Object Model to enable
+// programmatic definitions of the document object model using golang
+
 import (
 	"syscall/js"
 )
@@ -20,7 +25,7 @@ func getHtml() js.Func {
 	})
 }
 
-// so there has to be a render method
+// Render will inject the defined DOM into the browser
 func (d *DOM) Render() {
 	js.Global().Set("getHtml", getHtml())
 }
