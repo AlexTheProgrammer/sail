@@ -1,0 +1,19 @@
+so the thing I'm trying to figure
+out is how does render work?
+
+basically we want to generate the 
+entire DOM. off of our shadowDOM
+
+
+so render is good 
+it should like wrap the contents
+
+so then there is things like innerHTML
+ok so innerHTML literally only captures up to 
+the first child node.
+ok, then it's ok for it to be set.
+it's always first
+
+
+
+
